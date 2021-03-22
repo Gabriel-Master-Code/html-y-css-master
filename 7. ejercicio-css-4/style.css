@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+  }
+
+
+body{
+    background-color:rgb(255, 123, 0);
+    font-family: Roboto, sans-serif;
+}
+header h1{
+    color: white;
+    text-align: center;
+    font-size: 6.5rem;
+    margin-top: 2rem;
+}
+ul{
+    list-style: none;
+}
+body article header{
+    display: flex;
+    align-items: center;
+}
+#personajes ul{
+    display: flex;
+    align-items: center;
+    margin-left: 14rem;
+    margin-right: 17rem;
+    padding: 0;
+}
+#personajes ul li article{
+    margin-left: 3rem;
+    text-align: center;
+}
+.letraTextoPersonaje{
+    background: rgb(63, 0, 136);
+    font-size: 13px;
+    color: white;
+    padding-bottom: 3rem;
+    padding-top: 1.5rem;
+}
+.imagenPersonaje{
+    width: 100%;
+    height: 100%;
+    margin-top: 3rem;
+}

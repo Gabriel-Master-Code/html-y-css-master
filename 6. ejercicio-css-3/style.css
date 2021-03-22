@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+  }
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+}
+body>header{
+    background: black;
+    width: 100vw;
+    height: 55vh;
+    align-content: center;
+}
+header h1{
+    text-align: center;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-size: 40px;
+}  
+header h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}  
+header p{
+    text-align: center;
+    color: white;
+    margin-left: 4rem;
+    margin-right: 4rem;   
+}  
+
+article header img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    margin-top: 1.5rem;
+}
+article header div h3{
+    width: 100%;
+    color: grey;
+    font-size: 25px;
+    margin-top: 2rem;
+}
+main{
+    margin: 1rem 2rem 4rem 2rem;
+}
+section#texto1{
+    display: inline-block;
+    margin-top: 2rem;
+}
+section#texto2{
+    display: inline-block;
+    margin-bottom: 2.5rem;
+}
+section#formulario div h2{
+    color: grey;
+    font-size: 25px;
+}
+section#formulario div{
+    margin-bottom: 1rem;
+}
+.linea{
+    border-bottom: 1px solid black;
+    max-width: 100%;
+}
+.tamanoCeldas{
+    border: none;
+    background: grey;
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.tamanoCelda2{
+    border: none;
+    background: grey;
+    height: 100%;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+#botonFormulario{
+    border: none;
+    color: white;
+    font-size: 10px;
+    padding: 5px 20px 5px;
+    background-color: black;
+    margin-top: 0.5rem;
+}
+fieldset{
+    border: none;
+    margin: 0.5rem;
+    margin: 0;
+}
+form fieldset input{
+    margin-top: 0.5rem;
+}
+@media (min-width: 700px) {
+
+
+header h1{
+    text-align: left;
+    margin-left: 4rem;
+}
+header h2{
+    text-align: left;
+    margin-left: 4rem;
+}  
+header p{
+    text-align: left;
+    margin-left: 4rem;
+}  
+body>header{
+    height: 40vh;
+}
+main{
+    margin: 1rem 14rem 4rem 14rem;
+}
+article header img{
+    width: 20vw;
+    height: 40vh;
+    float:right;
+    display: inline;
+    padding-left: 1rem;
+
+}
+section#texto1{
+    display: flex;
+    margin-top: 1.4rem;
+}
+section#texto2{
+    margin-top: 2rem;
+}
+
+}

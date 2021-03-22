@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio HTML 1</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<!-- COMENTARIO: A pesar de que en las instrucciones pone que el validador de html
+no debe mostrar error, muestra 1 de que action no debe estar vacío, lo dejo así
+ya que también hay esta otra instrucción que lo manda:- El destino del envío del formulario debe ser "". -->
+    <form action="" method="GET" id="formulario">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" required autofocus />
+          <label for="correo">Correo Electronico:</label>
+          <input type="email" name="correo" id="correo" required />
+          <label for="link">URL:</label>
+          <input type="url" name="link" id="link" placeholder="Escribe la URL de tu página web personal"/>
+        </fieldset>
+
+        <fieldset>      
+          <legend>Datos Tiempo</legend>
+          <label for="fecha">Fecha:</label>
+          <input type="date" name="fecha" id="fecha"/>
+          <label for="tiempo">Tiempo:</label>
+          <input type="time" name="tiempo" id="tiempo"/>
+          <label for="fecha_hora">Fecha y Hora:</label>
+          <input type="datetime-local" name="fecha_hora" id="fecha_hora"/>
+          <label for="mes">Mes:</label>
+          <input type="month" name="mes" id="mes"/>
+          <label for="semana">Semana:</label>
+          <input type="week" name="semana" id="semana"/>
+        </fieldset>
+
+        <fieldset>      
+          <legend>Otros Datos</legend>
+          <label for="numero">Número:</label>
+          <input type="number" name="numero" id="numero" min="-10" max="10"/>
+          <label for="telefono">Teléfono:</label>
+          <input type="tel" name="telefono" id="telefono" value="981" pattern="[9]{1}[8]{1}[1]{1}[0-9]{3}[0-9]{3}" minlength="9" maxlength="9"/>
+          <label for="termino_busqueda">Término de búsqueda:</label>
+          <input type="search" name="termino_busqueda" id="termino_busqueda" disabled/>
+          <label for="color_fav">Color favorito:</label>
+          <input type="color" name="color_fav" id="color_fav"/>
+        </fieldset>
+
+        <button form="formulario">Enviar</button>  
+
+    </form>
+
+</body>
+
+</html>

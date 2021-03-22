@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    min-width: 400px;
+    margin: 0 auto;
+}
+input:required{
+    border: 1px solid red;
+}
+form fieldset{
+    background: rgb(155, 155, 155);
+    padding: 1rem;
+    margin: 0;
+}
+form fieldset:hover{
+    background: rgb(83, 83, 83);
+}
+form fieldset:nth-of-type(odd){
+    border-bottom: 5px solid black;
+}
+button{
+    background: black;
+    color: white;
+    border: none;
+}

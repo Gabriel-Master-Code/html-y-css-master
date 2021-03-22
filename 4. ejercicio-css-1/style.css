@@ -1,0 +1,60 @@
+ul li:last-child {
+    background: rgb(0,0,255);
+}
+ul li:nth-child(odd) {
+    text-decoration:underline green;
+
+}
+ul{
+    display: flex;
+}
+/* Comentario : EL ejercicio pedía 10px y le puse 10px ahora esto queda fatal. */
+ul li {
+    margin-left: 10px;
+    list-style: upper-roman;
+
+}
+
+.lista li:nth-of-type(1)::after{
+    content: "😆";
+}
+.lista li:nth-of-type(2)::after{
+    content: "😂";
+}
+.lista li:nth-of-type(3)::after{
+    content: "🤣";
+}
+.lista li:nth-of-type(4)::after{
+    content: "😇";
+}
+.lista li:nth-of-type(5)::after{
+    content: "🤩";
+}
+.lista li:nth-of-type(6)::after{
+    content: "😜";
+}
+#provincias li:nth-of-type(1)::after{
+    content: "🤪";
+}
+#provincias li:nth-of-type(2)::after{
+    content: "🤑";
+}
+#provincias li:nth-of-type(3)::after{
+    content: "🥶";
+}
+#provincias li:nth-of-type(4)::after{
+    content: "👿";
+}
+
+
+.lista li:nth-of-type(4){
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#provincias li:nth-of-type(2){
+    list-style: disc;
+}
+
+
+
